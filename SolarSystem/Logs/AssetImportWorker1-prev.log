@@ -15,7 +15,7 @@ C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64809
+50639
 Successfully changed project path to: C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
 C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 126.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 314.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,90 +63,190 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022465 seconds.
+Registered in 0.034817 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 117.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 304.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
+- Completed reload, in  2.344 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1276ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (2345ms)
+		BeginReloadAssembly (244ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (874ms)
-			LoadAssemblies (165ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1714ms)
+			LoadAssemblies (235ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (381ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (532ms)
+			RebuildScriptCaches (140ms)
+			SetupLoadedEditorAssemblies (1048ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (304ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (549ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013896 seconds.
+Registered in 0.021203 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.376 seconds
+- Completed reload, in  4.231 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2378ms)
-		BeginReloadAssembly (277ms)
+	ReloadAssembly (4234ms)
+		BeginReloadAssembly (530ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (23ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1818ms)
-			LoadAssemblies (262ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (3227ms)
+			LoadAssemblies (414ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (545ms)
+			SetupTypeCache (1095ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (853ms)
+			RebuildScriptCaches (228ms)
+			SetupLoadedEditorAssemblies (1359ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (549ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (34ms)
+				BeforeProcessingInitializeOnLoad (387ms)
+				ProcessInitializeOnLoadAttributes (789ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (50ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (112.5 KB). Loaded Objects now: 3689.
 Memory consumption went from 112.2 MB to 112.1 MB.
-Total: 8.228000 ms (FindLiveObjects: 1.097400 ms CreateObjectMapping: 0.477900 ms MarkObjects: 6.473100 ms  DeleteObjects: 0.177300 ms)
+Total: 7.187300 ms (FindLiveObjects: 0.578500 ms CreateObjectMapping: 0.443700 ms MarkObjects: 5.893500 ms  DeleteObjects: 0.268700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 765.839633 seconds.
+  path: Assets/Textures/MarsTexture.jpg
+  artifactKey: Guid(21087fac7147c8340a3bd59f186f6d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MarsTexture.jpg using Guid(21087fac7147c8340a3bd59f186f6d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95f0ce206bc5701298aa65959204f58') in 0.482586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002864 seconds.
+  path: Assets/Textures/SunTexture.jpg
+  artifactKey: Guid(bd7cd7c21d306074e9ad0877e61a637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SunTexture.jpg using Guid(bd7cd7c21d306074e9ad0877e61a637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5ba0ef2065fa6152109629f9201fa5') in 0.069072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/JupiterTexture.jpg
+  artifactKey: Guid(941a37c2f9a7a9a4f828bf19174e6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/JupiterTexture.jpg using Guid(941a37c2f9a7a9a4f828bf19174e6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f47761ce7bd2d13106de53911aff28') in 0.060295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sounds/dronehum.aif
+  artifactKey: Guid(4d18030ddc7ea84458740afe620cb4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/dronehum.aif using Guid(4d18030ddc7ea84458740afe620cb4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87be9ee98331362f36063e7fddddf75c') in 0.194255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/UranusTexture.jpg
+  artifactKey: Guid(0d89eb94cb2268743aea8cbc363466f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UranusTexture.jpg using Guid(0d89eb94cb2268743aea8cbc363466f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f58b6232edd9d4aa740ea3dbc39a3e') in 0.070510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sounds/dronedarkandscary.aif
+  artifactKey: Guid(47200800b123eee4bbacb775915f5937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/dronedarkandscary.aif using Guid(47200800b123eee4bbacb775915f5937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ee1be1a23f6706d87eecf7c6abf609') in 0.046540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/MercuryTexture.jpg
+  artifactKey: Guid(5a0fa4504ff7b7f4cb0bfbe98eb94b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MercuryTexture.jpg using Guid(5a0fa4504ff7b7f4cb0bfbe98eb94b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92097b57194dd2918bd1b4668e222e93') in 0.045486 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016617 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4012ms)
+		BeginReloadAssembly (457ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (3110ms)
+			LoadAssemblies (410ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1019ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (176ms)
+			SetupLoadedEditorAssemblies (1378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (307ms)
+				ProcessInitializeOnLoadAttributes (851ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (58ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (79.3 KB). Loaded Objects now: 3702.
+Memory consumption went from 116.5 MB to 116.4 MB.
+Total: 11.042700 ms (FindLiveObjects: 0.607400 ms CreateObjectMapping: 0.365600 ms MarkObjects: 9.866000 ms  DeleteObjects: 0.200400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
