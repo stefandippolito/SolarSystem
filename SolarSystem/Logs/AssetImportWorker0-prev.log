@@ -15,7 +15,7 @@ C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56966
+56443
 Successfully changed project path to: C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
 C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/dippo/OneDrive/Documents/GitHub/SolarSystem/SolarSystem
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 329.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 447.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.051290 seconds.
+Registered in 0.055311 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 357.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 316.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.764 seconds
+- Completed reload, in  2.789 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2766ms)
-		BeginReloadAssembly (347ms)
+	ReloadAssembly (2792ms)
+		BeginReloadAssembly (277ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1918ms)
-			LoadAssemblies (332ms)
+		EndReloadAssembly (2010ms)
+			LoadAssemblies (256ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
+			SetupTypeCache (519ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (1158ms)
+			RebuildScriptCaches (167ms)
+			SetupLoadedEditorAssemblies (1115ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (357ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (524ms)
-				ProcessInitializeOnLoadMethodAttributes (234ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (317ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+				ProcessInitializeOnLoadMethodAttributes (199ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.043092 seconds.
+Registered in 0.036708 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.839 seconds
+- Completed reload, in  5.262 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4843ms)
-		BeginReloadAssembly (368ms)
+	ReloadAssembly (5266ms)
+		BeginReloadAssembly (782ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
+			DisableScriptedObjects (40ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (3932ms)
-			LoadAssemblies (326ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (3638ms)
+			LoadAssemblies (497ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1193ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (248ms)
-			SetupLoadedEditorAssemblies (1918ms)
+			SetupTypeCache (1335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (172ms)
+			SetupLoadedEditorAssemblies (1556ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (400ms)
-				ProcessInitializeOnLoadAttributes (1289ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
-				AfterProcessingInitializeOnLoad (59ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (401ms)
+				ProcessInitializeOnLoadAttributes (971ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (61ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (35ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (112.1 KB). Loaded Objects now: 3691.
 Memory consumption went from 112.6 MB to 112.5 MB.
-Total: 12.160800 ms (FindLiveObjects: 0.815400 ms CreateObjectMapping: 1.424500 ms MarkObjects: 9.654200 ms  DeleteObjects: 0.263400 ms)
+Total: 8.367100 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.400600 ms MarkObjects: 7.303700 ms  DeleteObjects: 0.235300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,75 +164,18 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 27718.324445 seconds.
-  path: Assets/Materials/Moon Material.mat
-  artifactKey: Guid(bd7eb7d16bb98264087fa171b69a1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Moon Material.mat using Guid(bd7eb7d16bb98264087fa171b69a1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79260dd5fae8ce7a93c58df41a93e039') in 0.473498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Materials/Comet Material.mat
-  artifactKey: Guid(cebd426f4551f9146853ef77122ad673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Comet Material.mat using Guid(cebd426f4551f9146853ef77122ad673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240654355df637fb5c1b551250638742') in 0.071079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Materials/Outer SPace Skybox Material.mat
-  artifactKey: Guid(021d05f262e7f624a9ee910f5bea192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Outer SPace Skybox Material.mat using Guid(021d05f262e7f624a9ee910f5bea192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1452e2c7c9e50e170b053fe8ff375cf') in 0.057630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Sounds/burning.aif
-  artifactKey: Guid(29effc584903d6c43b3797adeb791c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/burning.aif using Guid(29effc584903d6c43b3797adeb791c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88db6e55902a0914d781ccfc4a33a789') in 0.111449 seconds 
+  Time since last request: 25187.648006 seconds.
+  path: Assets/Icons/SunIcon.png
+  artifactKey: Guid(9faf67c4d80e6044ab5823161b6ed4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/SunIcon.png using Guid(9faf67c4d80e6044ab5823161b6ed4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37341e86b98ca205d6a9a52ea390d68e') in 0.435177 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029237 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\dippo\OneDrive\Documents\GitHub\SolarSystem\SolarSystem\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.392 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4394ms)
-		BeginReloadAssembly (563ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (161ms)
-		EndReloadAssembly (3290ms)
-			LoadAssemblies (386ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1379ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (129ms)
-			SetupLoadedEditorAssemblies (1145ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (69ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (315ms)
-				ProcessInitializeOnLoadAttributes (594ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
-				AfterProcessingInitializeOnLoad (62ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (35ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3224 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (78.9 KB). Loaded Objects now: 3735.
-Memory consumption went from 117.2 MB to 117.1 MB.
-Total: 8.957000 ms (FindLiveObjects: 1.086700 ms CreateObjectMapping: 0.331700 ms MarkObjects: 7.332800 ms  DeleteObjects: 0.201300 ms)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (76.2 KB). Loaded Objects now: 3693.
+Memory consumption went from 48.2 MB to 48.1 MB.
+Total: 8.231700 ms (FindLiveObjects: 0.493900 ms CreateObjectMapping: 0.423200 ms MarkObjects: 7.192800 ms  DeleteObjects: 0.119600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -245,7 +188,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
